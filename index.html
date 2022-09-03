@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International News</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/4b271310b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row d-flex justify-content-between py-3" style="border-bottom: 2px solid gray">
+                <div class="col-md-6 w-25">
+                    <a href="#" class="btn btn-primary">International</a> News
+                </div>
+                <div class="col-md-6 text-end d-flex align-items-center justify-content-between" style="width: 150px">
+                    <a href="#" class="text-decoration-none">News</a>
+                    <a href="blog.html" class="text-decoration-none">Blog</a>
+                    <img src="img/profileimg.jpg" alt="" class="rounded-circle" style="width:30px">
+                </div>
+            </div>
+            <div id="categoryList" class="d-flex justify-content-between py-4">
+                
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Item found -->
+        <div class="container">
+            <div class="item-found py-5">
+                <h3 id="item-count"></h3>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-md-6 w-25">
+                    <div class="sort-by-view d-flex">
+                    <h4 class="px-3">Sort by view</h4>
+                        <select>
+                            <option>Default</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end w-25">
+                    <button class="btn btn-primary mx-2">Todays picks</button>
+                    <button class="btn btn-primary">Trending</button>
+                </div>
+            </div>
+        </div>
+        <div  id="post-items" class="container mt-5">
+
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="py-5">
+        <p class="text-center">&copy; Copyright 2022</p>
+    </footer>
+    <!-- Script -->
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
